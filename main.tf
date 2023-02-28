@@ -46,7 +46,7 @@ resource "aws_route_table" "route_table1" {
   vpc_id = aws_vpc.vpc.id
 
   tags = {
-    Name = "RouteTable1"
+    Name = "Routetable1"
     Terraform = "true"
   }
 }
